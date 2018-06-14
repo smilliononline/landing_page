@@ -10,7 +10,7 @@ def ninjas():
     return render_template("ninjas.html")
 
 @app.route('/dojos/new')
-def ninjas():
+def dojos():
     return render_template("/dojos.html", type=" ", ninja=' ')
 
 app.run(debug=True) 
